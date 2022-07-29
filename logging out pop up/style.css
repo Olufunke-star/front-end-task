@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  font-family: sans-serif;
+  background: #dedede;
+}
+.Logout,
+.popup_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.Logout {
+  background: #866ac4;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  border: 1px solid #866ac4;
+  font-size: 22px;
+}
+.popup_box {
+  user-select: none;
+  width: 400px;
+  padding: 40px;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  border: 1px solid #b3b3b3;
+  z-index: 9999;
+  padding-right: 100px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+.popup_box h1 {
+  padding-top: 35px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: "Space Grotesk";
+  font-size: 40px;
+  color: #2f2d2f;
+}
+.popup_box h2 {
+  text-align: left;
+  font-size: 23px;
+  color: #404040;
+}
+.popup_box .btns {
+  text-align: right;
+  font-size: 23px;
+  color: #404040;
+  margin: 40px 0 0 0;
+  padding-left: 150px;
+}
+.btns .btn1 {
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  background: #866ac4;
+  padding: 10px 13px;
+  border: 1px solid #866ac4;
+  border-radius: 5px;
+}
+.btns .btn2 {
+  text-align: right;
+  font-size: 18px;
+  background: white;
+  color: #866ac4;
+  padding: 10px 13px;
+  border: 1px solid #866ac4;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.btn1:hover {
+  transition: 0.5s;
+  background: #9a7fd8;
+}
+.btn2:hover {
+  transition: 0.5s;
+  background: #cac4c4;
+}
